@@ -1,0 +1,4 @@
+# PUT requests
+curl -X PUT --data-binary "@test_images/cat.200.jpg" http://localhost:3000/200
+curl -X PUT --data-binary "@test_images/cat.404.jpg" http://localhost:3000/404
+curl -X PUT --data-binary "@test_images/cat.500.jpg" http://localhost:3000/500
